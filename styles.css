@@ -326,6 +326,22 @@ header .icons #menu-bars{
     line-height: 2;
 }
 
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+p {
+  flex: 1;
+  margin-right: 20px;
+}
+
+iframe {
+  width: 300px;
+  height: 200px;
+}
+
+
 .about .row .content .icons-container{
     display: flex;
     gap:1rem;
